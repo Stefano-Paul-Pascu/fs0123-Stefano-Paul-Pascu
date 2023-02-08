@@ -11,6 +11,7 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
+
 /* I principali datatype in JS sono:
 
   - String: rappresenta dei caratteri letterali;
