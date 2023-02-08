@@ -2,19 +2,35 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* let numeri = 56, 12];
+console.log(numeri);
+numeri.sort();
+sulla console verranno mostrati i numeri in ordine crescente */
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* let a = 5;
+
+if(a != 5){
+  console.log('Not equal');
+}else{
+  console.log('Equal');
+} */
+
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* let a = 20;
+if ((a % 5) == 0){
+  console.log('Il numero ' + a + ' è divisibile per 5');
+}else{
+  console.log('Il numero' + a + 'non è divisibile per 5')
+} */
+
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
