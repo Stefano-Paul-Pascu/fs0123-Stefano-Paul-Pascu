@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    
+    <div class="content">
+        <input type="text" name="display" id="calcoli" class="display" disabled>
+    </div>
+    <div class="content">
+        <div class="content">
+            <button id="7" value="7" onclick="numero(this.id)" class="tasto">7</button>
+            <button id="8" value="8" onclick="numero(this.id)" class="tasto">8</button>
+            <button id="9" value="9" onclick="numero(this.id)" class="tasto">9</button>
+            <button id="/" value="/" onclick="numero(this.id)" class="tasto">/</button>
+        </div>
+        <div class="content">
+            <button id="4" value="4" onclick="numero(this.id)" class="tasto">4</button>
+            <button id="5" value="5" onclick="numero(this.id)" class="tasto">5</button>
+            <button id="6" value="6" onclick="numero(this.id)" class="tasto">6</button>
+            <button id="*" value="*" onclick="numero(this.id)" class="tasto">x</button>
+        </div>
+        <div class="content">
+            <button id="1" value="1" onclick="numero(this.id)" class="tasto">1</button>
+            <button id="2" value="2" onclick="numero(this.id)" class="tasto">2</button>
+            <button id="3" value="3" onclick="numero(this.id)" class="tasto">3</button>
+            <button id="-" value="-" onclick="numero(this.id)" class="tasto">-</button>
+        </div>
+        <div class="content">
+            <button value="C" onclick="cancella()" class="tasto">C</button>
+            <button id="0" value="0"onclick="numero(this.id)" class="tasto">0</button>
+            <button id="." value="."onclick="numero(this.id)" class="tasto">.</button>
+            <button id="+" value="+"onclick="numero(this.id)" class="tasto">+</button>
+        </div>
+        <div class="content">
+            <button value="=" onclick="operazione(this.id)" class="uguale">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

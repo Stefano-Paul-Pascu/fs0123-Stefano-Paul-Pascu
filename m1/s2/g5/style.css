@@ -1,0 +1,34 @@
+.content {
+    border-width: 5px;
+}
+
+.display {
+    color: #1768ae;
+    border: #1768ae solid 2px;
+    margin: 4px 1px;
+    font-size: 30px;
+    width: 204px;
+    height: 40px;
+}
+
+.tasto {
+    background-color: #a8a8a8 ;
+    color: #1768ae;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 46px;
+    margin: 4px 2px;
+}
+
+.uguale {
+    width: 208px;
+    height: 40px;
+    margin: 4px 2px;
+    color: #1768ae;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #a8a8a8;
+    border: none;
+}
