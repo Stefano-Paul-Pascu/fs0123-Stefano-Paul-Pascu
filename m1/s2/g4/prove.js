@@ -1,4 +1,6 @@
-var nome = 1;
-var nome1 = '1';
+var animali = [
+    "gatto",
+    "cane",
+];
 
-console.log(nome === nome1);
+document.getElementById("test").innerHTML = animali[0];
