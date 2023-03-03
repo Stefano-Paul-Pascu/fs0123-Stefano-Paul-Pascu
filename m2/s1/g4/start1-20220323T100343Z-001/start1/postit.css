@@ -14,6 +14,12 @@ div{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    transition-property: width, height;
+}
+
+div:hover{
+    width: 264px;
+    height: 180px;
 }
 
 .primo{
@@ -59,8 +65,19 @@ div{
 h2{
     font-size: 40px;
     padding: 5px;
+    transition-property: font-size;
+}
+
+h2:hover{
+    font-size: 48px;
 }
 
 p{
     font-size: 25px;
+    transition-property: font-size;
 }
+
+p:hover{
+    font-size: 30px;
+}
+
